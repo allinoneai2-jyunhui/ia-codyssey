@@ -1,0 +1,66 @@
+===== 현재 위치 확인 =====
+/Users/jyunhui3210683/docker-web-practice
+
+===== 목록 확인: 숨김 파일 포함 =====
+total 16
+drwxr-xr-x   8 jyunhui3210683  jyunhui3210683  256 Jul 28 13:23 .
+drwxr-x---+ 21 jyunhui3210683  jyunhui3210683  672 Jul 28 13:24 ..
+drwxr-xr-x  14 jyunhui3210683  jyunhui3210683  448 Jul 28 13:32 .git
+-rw-r--r--   1 jyunhui3210683  jyunhui3210683   77 Jul 28 13:23 Dockerfile
+-rw-r--r--   1 jyunhui3210683  jyunhui3210683   90 Jul 28 13:23 README.md
+drwxr-xr-x   3 jyunhui3210683  jyunhui3210683   96 Jul 28 13:23 app
+drwxr-xr-x   5 jyunhui3210683  jyunhui3210683  160 Jul 28 13:32 logs
+drwxr-xr-x   3 jyunhui3210683  jyunhui3210683   96 Jul 28 13:23 screenshots
+
+===== 이동 =====
+/Users/jyunhui3210683/docker-web-practice/app
+
+===== 생성 =====
+total 16
+drwxr-xr-x   9 jyunhui3210683  jyunhui3210683  288 Jul 28 13:59 .
+drwxr-x---+ 21 jyunhui3210683  jyunhui3210683  672 Jul 28 13:24 ..
+drwxr-xr-x  14 jyunhui3210683  jyunhui3210683  448 Jul 28 13:32 .git
+-rw-r--r--   1 jyunhui3210683  jyunhui3210683   77 Jul 28 13:23 Dockerfile
+-rw-r--r--   1 jyunhui3210683  jyunhui3210683   90 Jul 28 13:23 README.md
+drwxr-xr-x   3 jyunhui3210683  jyunhui3210683   96 Jul 28 13:23 app
+drwxr-xr-x   2 jyunhui3210683  jyunhui3210683   64 Jul 28 13:59 cli-practice
+drwxr-xr-x   6 jyunhui3210683  jyunhui3210683  192 Jul 28 13:59 logs
+drwxr-xr-x   3 jyunhui3210683  jyunhui3210683   96 Jul 28 13:23 screenshots
+
+===== 복사 =====
+total 8
+drwxr-xr-x  3 jyunhui3210683  jyunhui3210683   96 Jul 28 13:59 .
+drwxr-xr-x  9 jyunhui3210683  jyunhui3210683  288 Jul 28 13:59 ..
+-rw-r--r--  1 jyunhui3210683  jyunhui3210683  219 Jul 28 13:59 index-copy.html
+
+===== 이동/이름변경 =====
+total 8
+drwxr-xr-x  3 jyunhui3210683  jyunhui3210683   96 Jul 28 13:59 .
+drwxr-xr-x  9 jyunhui3210683  jyunhui3210683  288 Jul 28 13:59 ..
+-rw-r--r--  1 jyunhui3210683  jyunhui3210683  219 Jul 28 13:59 renamed-index.html
+
+===== 파일 내용 확인 =====
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Docker Web Practice</title>
+</head>
+<body>
+  <h1>Hello Docker!</h1>
+  <p>nginx 컨테이너에서 실행 중인 웹페이지입니다.</p>
+</body>
+</html>
+
+===== 빈 파일 생성 =====
+total 8
+drwxr-xr-x  4 jyunhui3210683  jyunhui3210683  128 Jul 28 13:59 .
+drwxr-xr-x  9 jyunhui3210683  jyunhui3210683  288 Jul 28 13:59 ..
+-rw-r--r--  1 jyunhui3210683  jyunhui3210683    0 Jul 28 13:59 empty.txt
+-rw-r--r--  1 jyunhui3210683  jyunhui3210683  219 Jul 28 13:59 renamed-index.html
+
+===== 삭제 =====
+total 8
+drwxr-xr-x  3 jyunhui3210683  jyunhui3210683   96 Jul 28 13:59 .
+drwxr-xr-x  9 jyunhui3210683  jyunhui3210683  288 Jul 28 13:59 ..
+-rw-r--r--  1 jyunhui3210683  jyunhui3210683  219 Jul 28 13:59 renamed-index.html
