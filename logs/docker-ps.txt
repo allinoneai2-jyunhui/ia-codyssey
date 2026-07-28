@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS          PORTS                                     NAMES
+688de34c0d02   docker-web-practice   "/docker-entrypoint.…"   36 minutes ago   Up 36 minutes   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   my-web-container
