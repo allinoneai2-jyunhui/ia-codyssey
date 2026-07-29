@@ -35,11 +35,13 @@
 
 ```bash
 # 1. 커스텀 이미지 빌드
-docker build -t my-web:1.0 .
+docker build -t docker-web-practice:latest .
 
-# 2. 포트 매핑으로 컨테이너 실행 (호스트 8080포트 연결)
-docker run -d -p 8080:80 --name my-web-container my-web:1.0
+# 2. 포트 매핑으로 컨테이너 실행
+docker run -d --name my-web -p 8080:80 docker-web-practice:latest
 
-# 3. 접속 주소 확인
-# 웹 브라우저 주소창에 아래 주소 입력 또는 curl 테스트
-# 접속 주소: http://localhost:8080
+# 3. 실행 중인 컨테이너 확인
+docker ps
+
+# 4. 접속 테스트
+curl http://localhost:8080
