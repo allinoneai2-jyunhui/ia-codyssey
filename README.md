@@ -5,10 +5,10 @@
 ---
 
 ## 1) 실행 환경
-- **OS**: 표준 개발 환경 (Ubuntu / macOS / Windows)
-- **Shell**: bash / zsh
-- **Docker**: 26.x (서울캠퍼스 환경 기준 OrbStack / Docker 호환 환경)
-- **Git**: 2.x
+- **OS**: macOS 15.7.4
+- **Shell**: zsh
+- **Docker**: 28.5.2
+- **Git**: 2.53.0
 
 ---
 
